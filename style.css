@@ -23,6 +23,7 @@
 }
 .border {
   border: 1.5px solid transparent;
+  padding: 2px 9px;
 }
 .border:hover {
   border: 1.5px solid white;
@@ -46,10 +47,10 @@
 .nav-search {
   display: flex;
   justify-content: space-evenly;
-  background-color: pink;
   width: 620px;
   height: 40px;
   border-radius: 4px;
+  padding: 0%;
 }
 .nav-search:hover {
   border: 2px solid orange;
@@ -95,4 +96,35 @@ span {
 .nav-cart{
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+/** pannel style **/
+.pannel{
+    display: flex;
+    height: 40px;
+    font-weight: 600;
+    background-color: #232f3e;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 9px;
+    margin: 5px 0px 6px;
+}
+.panel-all{
+    padding: 6px 8px;
+}
+a:hover{
+    border: 1.5px solid white;
+}
+.panel-deals{
+    margin: 6px 2px 7px 1px;
+    padding: 5px 8px 6px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
 }
